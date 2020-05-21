@@ -1,0 +1,27 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="assn@userDefined" key=".assn" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="assertNull($EXPR$);&#10;$END$" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="assert@userDefined" key=".asse" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="assertEquals($END$, $EXPR$);" toReformat="true" toShortenFQNames="true" />
+    </template>
+  </component>
+  <component name="PostfixTemplatesSettings">
+    <option name="providerToDisabledTemplates">
+      <disabled-templates provider="builtin.java">
+        <value>
+          <set>
+            <option value="assert" />
+          </set>
+        </value>
+      </disabled-templates>
+    </option>
+  </component>
+</application>
