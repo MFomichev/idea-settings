@@ -5,4 +5,10 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="asse" value="org.junit.jupiter.api.Assertions.assertEquals($END$, $VAR$);" description="Inserts assertEquals statement" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="VAR" expression="suggestFirstVariableName(&quot;Object&quot;)" defaultValue="var" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
