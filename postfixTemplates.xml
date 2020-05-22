@@ -32,6 +32,13 @@
       </conditions>
       <template name="fakeKey" value="assertEquals($END$, $EXPR$);" toReformat="true" toShortenFQNames="true" />
     </template>
+    <template id="assthr@userDefined" key=".assthr" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions>
+        <condition id="non void" />
+        <condition id="void" />
+      </conditions>
+      <template name="fakeKey" value="assertThrows($END$, () -&gt; $EXPR$);" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="mk@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions>
         <condition id="non void" />
