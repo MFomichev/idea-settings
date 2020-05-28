@@ -1,49 +1,56 @@
 <application>
   <component name="PostfixTemplates">
-    <template id="assnn@userDefined" key=".assnn" provider="builtin.java" language-level="1.3" topmost="true">
+    <template id="assthr@userDefined" key=".assthr" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions>
         <condition id="non void" />
+        <condition id="void" />
       </conditions>
-      <template name="fakeKey" value="assertNotNull($EXPR$);$END$" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="asst@userDefined" key=".asst" provider="builtin.java" language-level="1.3" topmost="true">
-      <conditions>
-        <condition id="boolean" />
-        <condition id="fqn" fqn="Boolean" />
-      </conditions>
-      <template name="fakeKey" value="assertTrue($EXPR$);$END$" toReformat="true" toShortenFQNames="true" />
-    </template>
-    <template id="assn@userDefined" key=".assn" provider="builtin.java" language-level="1.3" topmost="true">
-      <conditions>
-        <condition id="non void" />
-      </conditions>
-      <template name="fakeKey" value="assertNull($EXPR$);$END$" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="assertThrows($END$, () -&gt; $EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="assf@userDefined" key=".assf" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions>
         <condition id="boolean" />
         <condition id="fqn" fqn="Boolean" />
       </conditions>
-      <template name="fakeKey" value="assertFalse($EXPR$);$END$" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="assertFalse($EXPR$);$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="assert@userDefined" key=".asse" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions>
         <condition id="non void" />
       </conditions>
-      <template name="fakeKey" value="assertEquals($END$, $EXPR$);" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="assertEquals($END$, $EXPR$);" description="" toReformat="true" toShortenFQNames="true" />
     </template>
-    <template id="assthr@userDefined" key=".assthr" provider="builtin.java" language-level="1.3" topmost="true">
+    <template id="assn@userDefined" key=".assn" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions>
         <condition id="non void" />
-        <condition id="void" />
       </conditions>
-      <template name="fakeKey" value="assertThrows($END$, () -&gt; $EXPR$);" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="assertNull($EXPR$);$END$" description="" toReformat="true" toShortenFQNames="true" />
     </template>
     <template id="mk@userDefined" key=".when" provider="builtin.java" language-level="1.3" topmost="true">
       <conditions>
         <condition id="non void" />
       </conditions>
-      <template name="fakeKey" value="when($EXPR$)$END$;" toReformat="true" toShortenFQNames="true" />
+      <template name="fakeKey" value="when($EXPR$)$END$;" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="assnn@userDefined" key=".assnn" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions>
+        <condition id="non void" />
+      </conditions>
+      <template name="fakeKey" value="assertNotNull($EXPR$);$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="asst@userDefined" key=".asst" provider="builtin.java" language-level="1.3" topmost="true">
+      <conditions>
+        <condition id="boolean" />
+        <condition id="fqn" fqn="Boolean" />
+      </conditions>
+      <template name="fakeKey" value="assertTrue($EXPR$);$END$" description="" toReformat="true" toShortenFQNames="true" />
+    </template>
+    <template id="toList@userDefined" key=".toList" provider="builtin.java" language-level="1.3" topmost="false">
+      <conditions>
+        <condition id="fqn" fqn="Collection" />
+        <condition id="fqn" fqn="Set" />
+      </conditions>
+      <template name="fakeKey" value="new ArrayList($EXPR$)" toReformat="true" toShortenFQNames="true" />
     </template>
   </component>
   <component name="PostfixTemplatesSettings">
