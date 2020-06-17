@@ -11,11 +11,11 @@
     <mask>pom.xml</mask>
     <mask>*.xml</mask>
     <mask>*UploadService.java</mask>
-    <mask>*xml</mask>
     <mask>.java</mask>
     <mask>*.java</mask>
     <mask>*Test.java</mask>
     <mask>*gradle*</mask>
     <mask>*repository*</mask>
+    <mask>*xml</mask>
   </component>
 </application>
