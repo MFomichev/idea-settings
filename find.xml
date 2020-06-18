@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*gatewa*" />
+    <option name="FILE_MASK" value="*repository*" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -17,7 +17,7 @@
     <mask>*Test.java</mask>
     <mask>*gradle*</mask>
     <mask>*xml</mask>
-    <mask>*repository*</mask>
     <mask>*gatewa*</mask>
+    <mask>*repository*</mask>
   </component>
 </application>
