@@ -1,7 +1,7 @@
 <application>
   <component name="PathMacrosImpl">
     <macro name="MAVEN_REPOSITORY" value="/Users/mfomichev/.m2/repository" />
-    <macro name="KOTLIN_BUNDLED" value="/Users/mfomichev/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/201.7223.91/IntelliJ IDEA.app.plugins/Kotlin/kotlinc" />
+    <macro name="KOTLIN_BUNDLED" value="/Users/mfomichev/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/201.7846.76/IntelliJ IDEA.app.plugins/Kotlin/kotlinc" />
     <macro name="PATH_TO_FX" value="/Users/mfomichev/.sdkman/candidates/java/11.0.7.fx-librca/lib" />
   </component>
 </application>
