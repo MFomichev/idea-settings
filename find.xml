@@ -14,9 +14,9 @@
     <mask>.java</mask>
     <mask>*.java</mask>
     <mask>*Test.java</mask>
-    <mask>*gradle*</mask>
     <mask>*xml</mask>
     <mask>*gatewa*</mask>
     <mask>*repository*</mask>
+    <mask>*gradle*</mask>
   </component>
 </application>
