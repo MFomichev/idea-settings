@@ -5,6 +5,7 @@
     <option name="defaultScopeName" value="All Places" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.java" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -14,7 +15,6 @@
     <mask>*.xml</mask>
     <mask>*UploadService.java</mask>
     <mask>.java</mask>
-    <mask>*.java</mask>
     <mask>*Test.java</mask>
     <mask>*gatewa*</mask>
     <mask>*repository*</mask>
@@ -22,5 +22,6 @@
     <mask>*xml</mask>
     <mask>*java</mask>
     <mask>*Gateway*</mask>
+    <mask>*.java</mask>
   </component>
 </application>
