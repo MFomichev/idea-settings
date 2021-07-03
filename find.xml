@@ -3,6 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*RepositoryImpl.java" />
     <mask>*.css</mask>
     <mask>*.html</mask>
     <mask>*.jsp</mask>
@@ -22,5 +23,6 @@
     <mask>*.java</mask>
     <mask>*Specification.java</mask>
     <mask>*java</mask>
+    <mask>*RepositoryImpl.java</mask>
   </component>
 </application>
