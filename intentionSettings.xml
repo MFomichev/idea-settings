@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Groovy/Expression conversions/Convert Indexing Method To [] Form" />
+  </component>
+</application>
