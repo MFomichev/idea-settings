@@ -1,10 +1,10 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'warehouse'" />
-    <option name="defaultScopeName" value="Project 'warehouse'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="showResultsInSeparateView" value="true" />
     <option name="SHOW_RESULTS_IN_SEPARATE_VIEW" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'warehouse'" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>RedisHelper.java</mask>
     <mask>pom.xml</mask>
     <mask>*UploadService.java</mask>
