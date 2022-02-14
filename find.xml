@@ -28,5 +28,6 @@
     <mask>*.java</mask>
     <mask>*.json</mask>
     <mask>*Cmd.java</mask>
+    <mask>*Controller.java</mask>
   </component>
 </application>
