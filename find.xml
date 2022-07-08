@@ -26,13 +26,14 @@
     <mask>*.properties</mask>
     <mask>*.json</mask>
     <mask>*Cmd.java</mask>
-    <mask>*Controller.java</mask>
-    <mask>*IT.java</mask>
     <mask>*SearchService.java</mask>
     <mask>build.gradle</mask>
     <mask>*.java</mask>
     <mask>*Consumer.java</mask>
     <mask>*Repository*.java</mask>
     <mask>*RepositoryImpl.java</mask>
+    <mask>*IT.java</mask>
+    <mask>*Controller.java</mask>
+    <mask>*Client.java</mask>
   </component>
 </application>
